@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head id = "head">
+        <style>
+        div{
+            text-align: left;
+            font-size: 18px;
+            background-color: rgb(4, 11, 17);
+            color: rgb(218, 210, 210);
+            
+
+        }
+        div.heading {
+            margin-bottom: 10px;
+            border-bottom: 0.5px solid grey;
+            border-bottom-width: thin;
+        }
+        body {
+            width: 340px;
+            height: 310px;
+            background-color: rgb(4, 11, 17);
+            border: 3px solid rgb(4, 11, 17);
+        }
+
+        li {
+            background-color: rgb(4, 11, 17);
+            font-size: 15px;
+            font-family: Helvetica;
+            border: 3px solid rgb(4, 11, 17); 
+            color: rgb(202, 196, 196);
+            /* align-items: flex-start; */
+            
+        }
+        img {
+            width: 16px;
+            height: 16px;
+        }
+        ul {
+            list-style-type:none;
+            padding-left: 0;
+        }
+        </style>
+    </head>
+    <body>
+        <div class = "heading">Time Tracker</div>
+        <ul id = 'tablist'>
+        </ul>
+        <div id = "piechart">
+        </div>
+
+        <script src="popup.js"></script>
+    </body>
+</html>

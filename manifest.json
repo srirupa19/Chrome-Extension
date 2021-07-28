@@ -1,0 +1,28 @@
+{
+    "name": "Time Tacker",
+    "description": "Track your time!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["scripting", "tabs", "storage", "idle"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/back-in-time16.png",
+            "32": "/images/back-in-time32.png",
+            "48": "/images/back-in-time48.png",
+            "128": "/images/back-in-time128.png"
+        }
+    },
+
+    "icons": {
+        "16": "/images/back-in-time16.png",
+        "32": "/images/back-in-time32.png",
+        "48": "/images/back-in-time48.png",
+        "128": "/images/back-in-time128.png"
+    }
+
+
+}
